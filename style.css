@@ -27,3 +27,13 @@ body {
     top: 0;
     z-index: 100;
 }
+logo {
+    font-size: 27px;
+    font-weight: 900;
+    color: #ff3f6c;
+    letter-spacing: -1px;
+}
+.logo span,
+footer span {
+    color: #ff3f6c;
+}
