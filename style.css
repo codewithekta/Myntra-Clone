@@ -37,3 +37,18 @@ logo {
 footer span {
     color: #ff3f6c;
 }
+.nav-links {
+    display: flex;
+    gap: 22px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ff3f6c;
+}
