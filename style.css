@@ -84,3 +84,30 @@ footer span {
     border-radius: 50%;
     padding: 3px 6px;
 }
+/* HERO SECTION */
+.hero {
+    min-height: 420px;
+    background:
+        linear-gradient(90deg, rgba(30,15,35,.75), rgba(30,15,35,.05)),
+        url("https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1600")
+        center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 50px 10%;
+    color: white;
+}
+
+.hero-content p {
+    font-size: 17px;
+    letter-spacing: 4px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin: 15px 0;
+}
+
+.hero-content h3 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
