@@ -52,3 +52,24 @@ footer span {
 .nav-links a:hover {
     color: #ff3f6c;
 }
+.search-box {
+    background: #f5f5f6;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.search-box span {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 13px;
+}
