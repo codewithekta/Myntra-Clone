@@ -124,3 +124,38 @@ footer span {
 .shop-btn:hover {
     background: #e62e59;
 }
+/* CATEGORIES */
+.categories {
+    text-align: center;
+    padding: 45px 20px 20px;
+}
+
+.categories h2,
+.products-section h2 {
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.category-btn {
+    border: 1px solid #ddd;
+    padding: 10px 23px;
+    border-radius: 25px;
+    background: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.category-btn:hover,
+.category-btn.active {
+    background: #ff3f6c;
+    border-color: #ff3f6c;
+    color: white;
+}
