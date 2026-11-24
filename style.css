@@ -213,3 +213,28 @@ footer span {
     color: #927C99;
     margin-bottom: 10px;
 }
+.price {
+    color: #33263F;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.old-price {
+    color: #AAA0AE;
+    text-decoration: line-through;
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+.discount {
+    color: #FF5C79;
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.product-buttons {
+    display: flex;
+    gap: 8px;
+}
