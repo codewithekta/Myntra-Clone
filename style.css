@@ -238,3 +238,22 @@ footer span {
     display: flex;
     gap: 8px;
 }
+.add-btn,
+.wishlist-btn {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.add-btn {
+    background: linear-gradient(135deg, #FF5C93, #FF9878);
+    color: white;
+    flex: 1;
+    transition: 0.3s;
+}
+
+.add-btn:hover {
+    background: linear-gradient(135deg, #E93D7B, #F47765);
+}
