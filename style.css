@@ -257,3 +257,14 @@ footer span {
 .add-btn:hover {
     background: linear-gradient(135deg, #E93D7B, #F47765);
 }
+.wishlist-btn {
+    background: #F4E9FF;
+    color: #A34CC2;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.wishlist-btn.selected {
+    background: #FFD6E5;
+    color: #FF347E;
+}
